@@ -306,27 +306,79 @@
             <types:interface types:id="interfaceffcd0241-1f975674-027a7a98-dac4071f" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">file write</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
-				
                 <types:type xlink:href="#interfaceTypeffcd0241-1f91011b-164a5a8c-dac406e2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaffe2f10086020c94430336</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+				
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffcd0241-1f9830d4-ea648d9f-dac40752" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffcd0241-1f913781-6a088a6f-dac406e3" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaffe2f10086020c94430336</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-2224f783-965540e0-36260132" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffa8010b-2205b9bf-8fcb8dae-362600c1" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-2226bf7b-81e0b7ac-362601de" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
                 <types:type xlink:href="#interfaceTypeffa8010b-2206238a-435368a6-362600c2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-37e2af3c-8031f1d4-36260701" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -336,12 +388,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-37e3ed13-de7af4e2-36260776" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -351,12 +407,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d2206f6-12e19f23-90820698" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -366,12 +426,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d22ac37-f5a1b8a4-908206da" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -381,12 +445,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interface7f000001-421f7067-1aefc9de-afac040e" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -396,12 +464,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interface7f000001-4220d598-afe6c23f-afac04b1" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -411,12 +483,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             
             <types:interface types:id="interfaceffffffe5-56c2b9a5-78218bf9-062602df" xsi:type="options:OptionalInterface">
@@ -427,12 +503,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe5-56c38b43-57575f16-0626031d" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -442,12 +522,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             
             
@@ -527,30 +611,73 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Print</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab26c3653df1acf5944309d0</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffcd0241-1f986e8d-0bcfa7c3-dac40772" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">History retriver</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
                 <types:type xlink:href="#interfaceTypeffcd0241-1f913781-6a088a6f-dac406e3" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaffe2f10086020c94430336</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-22249f19-c36cd34b-36260111" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">SendFile</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
                 <types:type xlink:href="#interfaceTypeffa8010b-2205b9bf-8fcb8dae-362600c1" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-22272bbe-cda6a84e-36260201" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">FileSent</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffa8010b-2206238a-435368a6-362600c2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-37e1ce26-e1d56ee4-362606bf" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">sendImage</types:description>
@@ -560,12 +687,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-37e52ae1-c282617a-362607ca" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">imagesent</types:description>
@@ -575,12 +706,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d1ce4ee-53e6a06b-908203cc" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">TTT type</types:description>
@@ -590,12 +725,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d1d517f-a51ed563-90820416" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">TTTEvent Type</types:description>
@@ -605,12 +744,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d20909f-baf3c189-908205eb" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">game listener</types:description>
@@ -620,12 +763,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d2110a0-9372dfd5-9082061c" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">game</types:description>
@@ -635,12 +782,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interface7f000001-421eeaff-efc5319e-afac03cb" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">sendtemplet</types:description>
@@ -650,12 +801,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interface7f000001-42216f18-f5a343c5-afac0502" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">templetsend</types:description>
@@ -665,12 +820,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe5-56c1c062-97fe3009-0626029d" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">toolbar type</types:description>
@@ -680,12 +839,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe5-56c4a1af-440a1ee7-0626038b" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">toolbarevents type</types:description>
@@ -695,12 +858,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffff83-61063570-ed972e3c-85510329" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">gettemplet</types:description>
@@ -710,12 +877,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             
             
@@ -815,30 +986,73 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Print</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab26c3653df1acf5944309d0</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffcd0241-1f98e03d-5d359051-dac40795" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
                 <types:type xlink:href="#interfaceTypeffcd0241-1f913781-6a088a6f-dac406e3" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaffe2f10086020c94430336</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-22257fbb-95509a86-36260154" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
                 <types:type xlink:href="#interfaceTypeffa8010b-2205b9bf-8fcb8dae-362600c1" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-2227753c-e8e9f44b-36260222" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffa8010b-2206238a-435368a6-362600c2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional"/>
+                <options:optional xsi:type="options:Optional">
+                    <options:guard xsi:type="boolguard:BooleanGuard">
+                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                            <boolguard:equals xsi:type="boolguard:Equals">
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                            </boolguard:equals>
+                        </boolguard:booleanExp>
+                    </options:guard>
+                </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-37e23a5c-d71bb5be-362606e0" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -848,12 +1062,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffa8010b-37e4a897-1aa76d92-362607a9" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -863,12 +1081,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d1e3427-7f61ec0f-90820481" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -878,12 +1100,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d1ea48f-ef4110b0-908204c3" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -893,12 +1119,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d202616-cdbc6e0e-908205a0" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -908,12 +1138,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe1-3d21b1cf-b336b055-90820676" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -923,12 +1157,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interface7f000001-421f2ec7-2616e635-afac03ec" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -938,12 +1176,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interface7f000001-42212bd8-618217f5-afac04e0" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -953,12 +1195,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe5-56c2302d-6aa7c548-062602be" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -968,12 +1214,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffe5-56c53909-44589e0b-062603ba" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -983,12 +1233,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffff83-61066ce0-e9129a66-85510349" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
@@ -998,12 +1252,16 @@
                     <options:guard xsi:type="boolguard:BooleanGuard">
                         <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                             <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                                <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                                <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                             </boolguard:equals>
                         </boolguard:booleanExp>
                     </options:guard>
                 </options:optional>
+                
+                
+                
+                
             </types:interface>
             
             
@@ -1089,17 +1347,20 @@
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffcd0241-1f4ec8a0-2164138d-dac40421" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional">
-                    <options:guard xsi:type="boolguard:BooleanGuard">
-                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                            <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Print</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                            </boolguard:equals>
-                        </boolguard:booleanExp>
-                    </options:guard>
-                </options:optional>
+                
             </types:interface>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab26c3653df1acf5944309d0</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
             <implementationext:implementation xsi:type="javaimplementation:JavaImplementation">
                 <javaimplementation:mainClass xsi:type="javaimplementation:JavaClassFile">
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.PrintComp.PrintCompArch</javaimplementation:javaClassName>
@@ -1108,16 +1369,7 @@
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.PrintComp.PrintCompImp</javaimplementation:javaClassName>
                 </javaimplementation:auxClass>
             </implementationext:implementation>
-            <options:optional xsi:type="options:Optional">
-                <options:guard xsi:type="boolguard:BooleanGuard">
-                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                        <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Print</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                        </boolguard:equals>
-                    </boolguard:booleanExp>
-                </options:guard>
-            </options:optional>
+            
         </types:component>
         <types:component types:id="componentffcd0241-1f909827-0888495f-dac406be" xsi:type="options:OptionalComponent">
             <types:description xsi:type="instance:Description">Chat History</types:description>
@@ -1126,9 +1378,27 @@
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffcd0241-1f91011b-164a5a8c-dac406e2" xlink:type="simple" xsi:type="instance:XMLLink"/>
                 <options:optional xsi:type="options:Optional"/>
+                
+                
+                
+                
             </types:interface>
             <types:propertyGroup types:id="propertyGroupffffff83-613e7adc-0c8ec9c7-96e202e8" xsi:type="types:PropertyGroup"/>
             <types:varientGroup types:id="varientGroupffffff83-613e7b66-576efcf3-96e202e9" xsi:type="types:VarientGroup"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaffe2f10086020c94430336</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
             
             
             <implementationext:implementation xsi:type="javaimplementation:JavaImplementation">
@@ -1139,16 +1409,7 @@
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.ChatHistory.ChatHistoryImp</javaimplementation:javaClassName>
                 </javaimplementation:auxClass>
             </implementationext:implementation>
-            <options:optional xsi:type="options:Optional">
-                <options:guard xsi:type="boolguard:BooleanGuard">
-                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                        <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">ChatHistory</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"Yes"</boolguard:value>
-                        </boolguard:equals>
-                    </boolguard:booleanExp>
-                </options:guard>
-            </options:optional>
+            
         </types:component>
         <types:component types:id="componentffffffcf-41a7e3c3-8e740b13-d59f031c" xsi:type="options:OptionalComponent">
             <types:description xsi:type="instance:Description">Bot</types:description>
@@ -1156,32 +1417,35 @@
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffcd0241-1eb11864-c92b5dbd-06b803ba" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional">
-                    <options:guard xsi:type="boolguard:BooleanGuard">
-                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                            <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">ChatBot</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                            </boolguard:equals>
-                        </boolguard:booleanExp>
-                    </options:guard>
-                </options:optional>
+                <options:optional xsi:type="options:Optional"/>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interfaceffffffcf-41a867eb-4d08c505-d59f03ae" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
                 <types:type xlink:href="#interfaceTypeffcd0241-1eb0e845-78917c45-06b803b9" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional">
-                    <options:guard xsi:type="boolguard:BooleanGuard">
-                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                            <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">ChatBot</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                            </boolguard:equals>
-                        </boolguard:booleanExp>
-                    </options:guard>
-                </options:optional>
+                <options:optional xsi:type="options:Optional"/>
+                
+                
+                
+                
             </types:interface>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaf84b2d2f447217944302d7</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
             <implementationext:implementation xsi:type="javaimplementation:JavaImplementation">
                 <javaimplementation:mainClass xsi:type="javaimplementation:JavaClassFile">
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.Bot.BotArch</javaimplementation:javaClassName>
@@ -1190,16 +1454,7 @@
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.Bot.BotImp</javaimplementation:javaClassName>
                 </javaimplementation:auxClass>
             </implementationext:implementation>
-            <options:optional xsi:type="options:Optional">
-                <options:guard xsi:type="boolguard:BooleanGuard">
-                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                        <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">ChatBot</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                        </boolguard:equals>
-                    </boolguard:booleanExp>
-                </options:guard>
-            </options:optional>
+            
         </types:component>
         <types:component types:id="component7f000001-41ff9431-b019b896-afac0243" xsi:type="options:OptionalComponent">
             <types:description xsi:type="instance:Description">TTTGame</types:description>
@@ -1207,32 +1462,35 @@
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffffffe1-3d1346ee-e7847595-90820285" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional">
-                    <options:guard xsi:type="boolguard:BooleanGuard">
-                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                            <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                            </boolguard:equals>
-                        </boolguard:booleanExp>
-                    </options:guard>
-                </options:optional>
+                <options:optional xsi:type="options:Optional"/>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interface7f000001-42008b77-be77026d-afac02c6" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
                 <types:type xlink:href="#interfaceTypeffffffe1-3d137bcf-49e028b0-90820286" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional">
-                    <options:guard xsi:type="boolguard:BooleanGuard">
-                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                            <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                            </boolguard:equals>
-                        </boolguard:booleanExp>
-                    </options:guard>
-                </options:optional>
+                <options:optional xsi:type="options:Optional"/>
+                
+                
+                
+                
             </types:interface>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
             <implementationext:implementation xsi:type="javaimplementation:JavaImplementation">
                 <javaimplementation:mainClass xsi:type="javaimplementation:JavaClassFile">
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.TTTGame.TTTGameArch</javaimplementation:javaClassName>
@@ -1241,16 +1499,7 @@
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.TTTGame.TTTGameImp</javaimplementation:javaClassName>
                 </javaimplementation:auxClass>
             </implementationext:implementation>
-            <options:optional xsi:type="options:Optional">
-                <options:guard xsi:type="boolguard:BooleanGuard">
-                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                        <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                        </boolguard:equals>
-                    </boolguard:booleanExp>
-                </options:guard>
-            </options:optional>
+            
         </types:component>
         <types:component types:id="component7f000001-41ffc897-ca826476-afac0266" xsi:type="options:OptionalComponent">
             <types:description xsi:type="instance:Description">TTTGame</types:description>
@@ -1258,32 +1507,35 @@
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceTypeffffffe1-3d1346ee-e7847595-90820285" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional">
-                    <options:guard xsi:type="boolguard:BooleanGuard">
-                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                            <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                            </boolguard:equals>
-                        </boolguard:booleanExp>
-                    </options:guard>
-                </options:optional>
+                <options:optional xsi:type="options:Optional"/>
+                
+                
+                
+                
             </types:interface>
             <types:interface types:id="interface7f000001-420130db-808922a3-afac031a" xsi:type="options:OptionalInterface">
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">out</types:direction>
                 <types:type xlink:href="#interfaceTypeffffffe1-3d137bcf-49e028b0-90820286" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional">
-                    <options:guard xsi:type="boolguard:BooleanGuard">
-                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                            <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                            </boolguard:equals>
-                        </boolguard:booleanExp>
-                    </options:guard>
-                </options:optional>
+                <options:optional xsi:type="options:Optional"/>
+                
+                
+                
+                
             </types:interface>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
             <implementationext:implementation xsi:type="javaimplementation:JavaImplementation">
                 <javaimplementation:mainClass xsi:type="javaimplementation:JavaClassFile">
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.TTTGame.TTTGameArch</javaimplementation:javaClassName>
@@ -1292,16 +1544,7 @@
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.TTTGame.TTTGameImp</javaimplementation:javaClassName>
                 </javaimplementation:auxClass>
             </implementationext:implementation>
-            <options:optional xsi:type="options:Optional">
-                <options:guard xsi:type="boolguard:BooleanGuard">
-                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                        <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                        </boolguard:equals>
-                    </boolguard:booleanExp>
-                </options:guard>
-            </options:optional>
+            
         </types:component>
         <types:component types:id="component7f000001-42226c93-f97993d8-afac054d" xsi:type="options:OptionalComponent">
             <types:description xsi:type="instance:Description">Templet</types:description>
@@ -1309,17 +1552,20 @@
                 <types:description xsi:type="instance:Description">[New Interface]</types:description>
                 <types:direction xsi:type="instance:Direction">in</types:direction>
                 <types:type xlink:href="#interfaceType7f000001-4218babf-3db32e83-afac03af" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <options:optional xsi:type="options:Optional">
-                    <options:guard xsi:type="boolguard:BooleanGuard">
-                        <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                            <boolguard:equals xsi:type="boolguard:Equals">
-                                <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                                <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                            </boolguard:equals>
-                        </boolguard:booleanExp>
-                    </options:guard>
-                </options:optional>
+                
             </types:interface>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
             <implementationext:implementation xsi:type="javaimplementation:JavaImplementation">
                 <javaimplementation:mainClass xsi:type="javaimplementation:JavaClassFile">
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.Templet.TempletArch</javaimplementation:javaClassName>
@@ -1328,16 +1574,7 @@
                     <javaimplementation:javaClassName xsi:type="javaimplementation:JavaClassName">comp.Templet.TempletImp</javaimplementation:javaClassName>
                 </javaimplementation:auxClass>
             </implementationext:implementation>
-            <options:optional xsi:type="options:Optional">
-                <options:guard xsi:type="boolguard:BooleanGuard">
-                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
-                        <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
-                        </boolguard:equals>
-                    </boolguard:booleanExp>
-                </options:guard>
-            </options:optional>
+            
         </types:component>
         <types:connector types:id="connectorffcd0241-1ed6c384-f6e2dba0-06b80431" xsi:type="types:Connector">
             <types:description xsi:type="instance:Description">ChatMessage Pump</types:description>
@@ -1374,12 +1611,17 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">SendFile</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"Yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
+            
         </types:connector>
         <types:connector types:id="connectorffa8010b-37e38763-ef79f9bd-3626072f" xsi:type="options:OptionalConnector">
             <types:description xsi:type="instance:Description">ImagePunm</types:description>
@@ -1400,12 +1642,17 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
+            
         </types:connector>
         <types:connector types:id="connectorffffffe1-3d1f96f6-b7edfa8f-90820529" xsi:type="options:OptionalConnector">
             <types:description xsi:type="instance:Description">Game Pump</types:description>
@@ -1426,12 +1673,17 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
+            
         </types:connector>
         <types:connector types:id="connector7f000001-42205ff1-08a8948c-afac0452" xsi:type="options:OptionalConnector">
             <types:description xsi:type="instance:Description">Templet pump</types:description>
@@ -1452,12 +1704,17 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
+            
         </types:connector>
         <types:connector types:id="connectorffffffe5-56c4116b-aaedfdb7-0626032e" xsi:type="options:OptionalConnector">
             <types:description xsi:type="instance:Description">Toolbar pump</types:description>
@@ -1478,12 +1735,17 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
+            
         </types:connector>
         <types:link types:id="linkffcd0241-1ed8c1b3-e7a34f2c-06b80560" xsi:type="types:Link">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1542,12 +1804,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Print</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab26c3653df1acf5944309d0</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffcd0241-1f51fcdc-e98cc052-dac4054a" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1561,12 +1827,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Print</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab26c3653df1acf5944309d0</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffcd0241-1f97b8bb-6611bf01-dac40729" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1576,7 +1846,20 @@
             <types:point xsi:type="instance:Point">
                 <instance:anchorOnInterface xlink:href="#interfaceffcd0241-1f975674-027a7a98-dac4071f" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </types:point>
-            <options:optional xsi:type="options:Optional"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaffe2f10086020c94430336</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffcd0241-1f991b86-d9ea878b-dac4079e" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1586,7 +1869,20 @@
             <types:point xsi:type="instance:Point">
                 <instance:anchorOnInterface xlink:href="#interfaceffcd0241-1f98e03d-5d359051-dac40795" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </types:point>
-            <options:optional xsi:type="options:Optional"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaffe2f10086020c94430336</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffcd0241-1f9941c8-6bdd328a-dac407ad" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1596,7 +1892,20 @@
             <types:point xsi:type="instance:Point">
                 <instance:anchorOnInterface xlink:href="#interfaceffcd0241-1f986e8d-0bcfa7c3-dac40772" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </types:point>
-            <options:optional xsi:type="options:Optional"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaffe2f10086020c94430336</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-2225e163-9df6f620-36260165" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1606,7 +1915,20 @@
             <types:point xsi:type="instance:Point">
                 <instance:anchorOnInterface xlink:href="#interfaceffa8010b-22249f19-c36cd34b-36260111" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </types:point>
-            <options:optional xsi:type="options:Optional"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-2226133f-7d2d0c70-36260173" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1616,7 +1938,20 @@
             <types:point xsi:type="instance:Point">
                 <instance:anchorOnInterface xlink:href="#interfaceffa8010b-22257fbb-95509a86-36260154" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </types:point>
-            <options:optional xsi:type="options:Optional"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-2227bcf0-c55b1e6e-3626022b" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1626,7 +1961,20 @@
             <types:point xsi:type="instance:Point">
                 <instance:anchorOnInterface xlink:href="#interfaceffa8010b-2226bf7b-81e0b7ac-362601de" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </types:point>
-            <options:optional xsi:type="options:Optional"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-2227f5ff-6b277268-3626023a" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1636,7 +1984,20 @@
             <types:point xsi:type="instance:Point">
                 <instance:anchorOnInterface xlink:href="#interfaceffa8010b-22272bbe-cda6a84e-36260201" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </types:point>
-            <options:optional xsi:type="options:Optional"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-22282508-09916484-36260248" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1646,7 +2007,20 @@
             <types:point xsi:type="instance:Point">
                 <instance:anchorOnInterface xlink:href="#interfaceffa8010b-2227753c-e8e9f44b-36260222" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </types:point>
-            <options:optional xsi:type="options:Optional"/>
+            <options:optional xsi:type="options:Optional">
+                <options:guard xsi:type="boolguard:BooleanGuard">
+                    <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
+                        <boolguard:equals xsi:type="boolguard:Equals">
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0455357e2b6d1694430446</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
+                        </boolguard:equals>
+                    </boolguard:booleanExp>
+                </options:guard>
+            </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-37e2ea2b-8b9b6673-36260709" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1660,12 +2034,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-37e320ba-eb488484-36260717" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1679,12 +2057,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-37e45c1a-406530c5-36260781" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1698,12 +2080,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-37e57211-3b2a7b0c-362607d2" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1717,12 +2103,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffa8010b-37e5a2a7-6df43290-362607e0" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1736,12 +2126,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">SendImage</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab0c6fc96f5b1b9194430592</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d1d249f-0a19c468-908203d5" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1756,12 +2150,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d1de786-46acd8a9-90820440" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1776,12 +2174,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d1f3397-014e66c8-908204f2" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1796,12 +2198,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d1f50f6-527ab02d-90820501" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1816,12 +2222,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d2063b6-eee53bd1-908205aa" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1835,12 +2245,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d20cda7-3b6f7df3-908205f4" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1854,12 +2268,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d225057-a8e09ad1-908206a1" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1873,12 +2291,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d227597-e5b8405b-908206b1" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1892,12 +2314,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe1-3d22e186-366c05a9-908206e2" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1911,12 +2337,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Game</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab1bc8b665caf8fe94430873</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffcf-4198f454-24856dd6-d59f0235" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1930,12 +2360,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">ChatBot</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaf84b2d2f447217944302d7</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffcf-41a8c39b-0f1239bc-d59f03b7" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1949,12 +2383,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">ChatBot</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108aaf84b2d2f447217944302d7</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="link7f000001-421ff697-a0663f96-afac0416" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1968,12 +2406,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="link7f000001-422015a7-9a2bf03e-afac0427" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -1987,12 +2429,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="link7f000001-422104a1-de98d94d-afac04b9" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2006,12 +2452,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="link7f000001-4221aaf4-80936079-afac050b" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2025,12 +2475,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="link7f000001-4221d8eb-c3dc2901-afac051b" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2044,12 +2498,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="link7f000001-42230de4-a0e1fdf4-afac057a" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2064,12 +2522,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe5-56c2f338-28504ade-062602e8" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2083,12 +2545,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe5-56c3323d-6fc9e3c7-062602f6" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2102,12 +2568,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe5-56c500da-a71b3137-06260393" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2121,12 +2591,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe5-56c57a62-8bf8dd2a-062603c3" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2140,12 +2614,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffffe5-56c5b7ed-a413b701-062603d2" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2159,12 +2637,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Toolbar</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab27ae015e532ff594430a07</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         <types:link types:id="linkffffff83-61072a88-0798835b-85510392" xsi:type="options:OptionalLink">
             <types:description xsi:type="instance:Description">[New Link]</types:description>
@@ -2178,12 +2660,16 @@
                 <options:guard xsi:type="boolguard:BooleanGuard">
                     <boolguard:booleanExp xsi:type="boolguard:BooleanExp">
                         <boolguard:equals xsi:type="boolguard:Equals">
-                            <boolguard:symbol xsi:type="boolguard:Symbol">Templet</boolguard:symbol>
-                            <boolguard:value xsi:type="boolguard:Value">"yes"</boolguard:value>
+                            <boolguard:symbol xsi:type="boolguard:Symbol">featureffa80108ab15d8608a06d26694430757</boolguard:symbol>
+                            <boolguard:value xsi:type="boolguard:Value">"true"</boolguard:value>
                         </boolguard:equals>
                     </boolguard:booleanExp>
                 </options:guard>
             </options:optional>
+            
+            
+            
+            
         </types:link>
         
         
@@ -3258,10 +3744,10 @@
                 <hints3:hintedElement xsi:type="hints3:HintedElement">
                     <hints3:target xlink:href="#interfaceffa8010b-37e4a897-1aa76d92-362607a9" xlink:type="simple" xsi:type="instance:XMLLink"/>
                     <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="10666,10325" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="10675,10325" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="{EDGE,{0.875,0.0}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="{EDGE,{0.90909094,0.0}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
                         <hints3:value hints3:data="255,255,255" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
@@ -3288,7 +3774,7 @@
                         <hints3:value hints3:data="10580,10254" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/endpoint2" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="10661,10321" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="10670,10321" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/endpoint1-StuckInfo" xsi:type="hints3:Property">
                         <hints3:value hints3:data="{EDGE_FROM_CENTER}" hints3:type="{[Ljava.lang.Object;,1,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode}" xsi:type="hints3:PropertyValue"/>
@@ -3957,7 +4443,7 @@
                 <hints3:hintedElement xsi:type="hints3:HintedElement">
                     <hints3:target xlink:href="#connector7f000001-42205ff1-08a8948c-afac0452" xlink:type="simple" xsi:type="instance:XMLLink"/>
                     <hints3:property hints3:name="glass/boundingBox" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="10925,10125,132,65" hints3:type="org.eclipse.swt.graphics.Rectangle" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="10875,10125,132,65" hints3:type="org.eclipse.swt.graphics.Rectangle" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="background/color" xsi:type="hints3:Property">
                         <hints3:value hints3:data="255,234,191" hints3:type="org.eclipse.swt.graphics.RGB" xsi:type="hints3:PropertyValue"/>
@@ -3966,7 +4452,7 @@
                 <hints3:hintedElement xsi:type="hints3:HintedElement">
                     <hints3:target xlink:href="#interface7f000001-42205ff3-0f4cb3a0-afac0454" xlink:type="simple" xsi:type="instance:XMLLink"/>
                     <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="11007,10190" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="10957,10190" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
                         <hints3:value hints3:data="{EDGE,{0.6212121,1.0}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
@@ -3978,7 +4464,7 @@
                 <hints3:hintedElement xsi:type="hints3:HintedElement">
                     <hints3:target xlink:href="#interface7f000001-42205ff2-83576fe5-afac0453" xlink:type="simple" xsi:type="instance:XMLLink"/>
                     <hints3:property hints3:name="glass/anchorPoint" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="10925,10140" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="10875,10140" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/anchorPoint-StuckInfo" xsi:type="hints3:Property">
                         <hints3:value hints3:data="{EDGE,{0.0,0.23076923}}" hints3:type="{[Ljava.lang.Object;,2,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode,{[F,2,java.lang.Float,java.lang.Float}}" xsi:type="hints3:PropertyValue"/>
@@ -4008,7 +4494,7 @@
                         <hints3:value hints3:data="10530,10125" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/endpoint2" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="10920,10140" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="10870,10140" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/endpoint1-StuckInfo" xsi:type="hints3:Property">
                         <hints3:value hints3:data="{EDGE_FROM_CENTER}" hints3:type="{[Ljava.lang.Object;,1,enum:edu.uci.isr.bna4.logics.coordinating.MaintainStickyPointLogic$StickyMode}" xsi:type="hints3:PropertyValue"/>
@@ -4047,7 +4533,7 @@
                         <hints3:value hints3:data="{}" hints3:type="{[Lorg.eclipse.swt.graphics.Point;,0}" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/endpoint1" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="11002,10193" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="10952,10193" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/endpoint2" xsi:type="hints3:Property">
                         <hints3:value hints3:data="10705,10347" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
@@ -4065,7 +4551,7 @@
                         <hints3:value hints3:data="{}" hints3:type="{[Lorg.eclipse.swt.graphics.Point;,0}" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/endpoint1" xsi:type="hints3:Property">
-                        <hints3:value hints3:data="11002,10191" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
+                        <hints3:value hints3:data="10952,10191" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
                     </hints3:property>
                     <hints3:property hints3:name="glass/endpoint2" xsi:type="hints3:Property">
                         <hints3:value hints3:data="10305,10349" hints3:type="org.eclipse.swt.graphics.Point" xsi:type="hints3:PropertyValue"/>
@@ -5544,200 +6030,232 @@
     </changes:archChange>
 <features:archFeature features:id="archFeatureffcd0241-1f508fb8-fa00f4f1-dac404c7" xsi:type="features:ArchFeature">
         <features:description xsi:type="instance:Description">Architecture Feature Model</features:description>
-        <features:feature features:id="featureffcd0241-1f508fba-7eb8874c-dac404c8" xsi:type="features:Feature">
-            <features:description xsi:type="instance:Description">Toolbar</features:description>
-            <features:displayOptions features:id="displayOptionsffcd0241-1f508fbb-6a4bfa04-dac404c9" xsi:type="features:DisplayOptions">
-                <features:featureColor xsi:type="features:FeatureColor">
-                    <features:value features:data="255,0,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
-                </features:featureColor>
-            </features:displayOptions>
-            <features:featureElements features:id="featureElementsffcd0241-1f508ffd-e3752363-dac404ca" xsi:type="features:FeatureElements">
-                <features:archElement xlink:href="componentffcd0241-1f50dcd7-afe93f74-dac404ce" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffcd0241-1f511c69-2abcfbe2-dac404f1" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffcd0241-1f5172f0-717978a9-dac40512" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffcd0241-1f51ac9f-3c9d368f-dac40533" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="linkffcd0241-1f51de4f-130d86db-dac4053c" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="linkffcd0241-1f51fcdc-e98cc052-dac4054a" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffcd0241-1f656be8-6ad8f464-dac40595" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffffffe5-56c1c062-97fe3009-0626029d" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffffffe5-56c2302d-6aa7c548-062602be" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffffffe5-56c2b9a5-78218bf9-062602df" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="linkffffffe5-56c2f338-28504ade-062602e8" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="linkffffffe5-56c3323d-6fc9e3c7-062602f6" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffffffe5-56c38b43-57575f16-0626031d" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="connectorffffffe5-56c4116b-aaedfdb7-0626032e" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffffffe5-56c4a1af-440a1ee7-0626038b" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="linkffffffe5-56c500da-a71b3137-06260393" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="interfaceffffffe5-56c53909-44589e0b-062603ba" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="linkffffffe5-56c57a62-8bf8dd2a-062603c3" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="linkffffffe5-56c5b7ed-a413b701-062603d2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                
-                
-                
-                
-                
-                
-                
-            </features:featureElements>
-        </features:feature>
-        <features:feature features:id="featureffcd0241-1f902dae-4609a25c-dac406b8" xsi:type="features:Feature">
-            <features:description xsi:type="instance:Description">ChatHistory</features:description>
-            <features:displayOptions features:id="displayOptionsffcd0241-1f902daf-56da40bc-dac406b9" xsi:type="features:DisplayOptions">
-                <features:featureColor xsi:type="features:FeatureColor">
-                    <features:value features:data="255,0,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
-                </features:featureColor>
-            </features:displayOptions>
-            <features:featureElements features:id="featureElementsffcd0241-1f902db0-99e28a48-dac406ba" xsi:type="features:FeatureElements">
-			<features:archElement xlink:href="#componentffcd0241-1f909827-0888495f-dac406be" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			
-			<features:archElement xlink:href="#interfaceffcd0241-1f975674-027a7a98-dac4071f" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffcd0241-1f98e03d-5d359051-dac40795" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffcd0241-1f986e8d-0bcfa7c3-dac40772" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffcd0241-1f9830d4-ea648d9f-dac40752" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			</features:featureElements>
-        </features:feature>
-        <features:feature features:id="featureffa8010b-21fc192d-d6cfb2ca-362600be" xsi:type="features:Feature">
-            <features:description xsi:type="instance:Description">SendFile</features:description>
-            <features:displayOptions features:id="displayOptionsffa8010b-21fc1a36-fba6f803-362600bf" xsi:type="features:DisplayOptions">
-                <features:featureColor xsi:type="features:FeatureColor">
-                    <features:value features:data="255,0,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
-                </features:featureColor>
-            </features:displayOptions>
-            <features:featureElements features:id="featureElementsffa8010b-21fc1a56-61eb03cb-362600c0" xsi:type="features:FeatureElements">
-			<features:archElement xlink:href="#interfaceffa8010b-22257fbb-95509a86-36260154" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffa8010b-22249f19-c36cd34b-36260111" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffa8010b-2224f783-965540e0-36260132" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffa8010b-222657bb-8bfa6860-36260184" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#connectorffa8010b-222657b1-6710dd7f-36260182" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffa8010b-222657ba-e34f18fb-36260183" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffa8010b-2227753c-e8e9f44b-36260222" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffa8010b-2226bf7b-81e0b7ac-362601de" xlink:type="simple" xsi:type="instance:XMLLink"/>
-			<features:archElement xlink:href="#interfaceffa8010b-22272bbe-cda6a84e-36260201" xlink:type="simple" xsi:type="instance:XMLLink"/>
-
-</features:featureElements>
-        </features:feature>
-        <features:feature features:id="featureffa8010b-37da3c0a-96e43c17-3626069b" xsi:type="features:Feature">
-            <features:description xsi:type="instance:Description">SendImage</features:description>
-            <features:displayOptions features:id="displayOptionsffa8010b-37da3c0b-843c1605-3626069c" xsi:type="features:DisplayOptions">
-                <features:featureColor xsi:type="features:FeatureColor">
-                    <features:value features:data="255,0,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
-                </features:featureColor>
-            </features:displayOptions>
-            <features:featureElements features:id="featureElementsffa8010b-37da3c0b-6459b581-3626069d" xsi:type="features:FeatureElements">
-                <features:archElement xlink:href="#interfaceffa8010b-37e1ce26-e1d56ee4-362606bf" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffa8010b-37e23a5c-d71bb5be-362606e0" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffa8010b-37e2af3c-8031f1d4-36260701" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffa8010b-37e2ea2b-8b9b6673-36260709" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffa8010b-37e320ba-eb488484-36260717" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#connectorffa8010b-37e38763-ef79f9bd-3626072f" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffa8010b-37e3ed13-de7af4e2-36260776" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffa8010b-37e45c1a-406530c5-36260781" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffa8010b-37e4a897-1aa76d92-362607a9" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffa8010b-37e52ae1-c282617a-362607ca" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffa8010b-37e57211-3b2a7b0c-362607d2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffa8010b-37e5a2a7-6df43290-362607e0" xlink:type="simple" xsi:type="instance:XMLLink"/>
-            </features:featureElements>
-        </features:feature>
-        <features:feature features:id="featureffa8010b-37f116bc-a8a5fdd6-36260848" xsi:type="features:Feature">
-            <features:description xsi:type="instance:Description">Game</features:description>
-            <features:displayOptions features:id="displayOptionsffa8010b-37f116bd-3ad00c51-36260849" xsi:type="features:DisplayOptions">
-                <features:featureColor xsi:type="features:FeatureColor">
-                    <features:value features:data="255,0,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
-                </features:featureColor>
-            </features:displayOptions>
-            <features:featureElements features:id="featureElementsffa8010b-37f116c0-a4ff1266-3626084a" xsi:type="features:FeatureElements">
-                <features:archElement xlink:href="#interfaceffffffe1-3d1c8d0f-4093b155-908203ab" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d1ce4ee-53e6a06b-908203cc" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d1d249f-0a19c468-908203d5" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d1d517f-a51ed563-90820416" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d1da14b-9c5bd711-90820438" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d1de786-46acd8a9-90820440" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d1e3427-7f61ec0f-90820481" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d1e6d2e-6f015811-908204a2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d1ea48f-ef4110b0-908204c3" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d1ed436-e5c9b90c-908204e4" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d1f3397-014e66c8-908204f2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d1f50f6-527ab02d-90820501" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#connectorffffffe1-3d1f96f6-b7edfa8f-90820529" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d202616-cdbc6e0e-908205a0" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d2063b6-eee53bd1-908205aa" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d20909f-baf3c189-908205eb" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d20cda7-3b6f7df3-908205f4" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d2110a0-9372dfd5-9082061c" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d21b1cf-b336b055-90820676" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d2206f6-12e19f23-90820698" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d225057-a8e09ad1-908206a1" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d227597-e5b8405b-908206b1" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffffe1-3d22ac37-f5a1b8a4-908206da" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffe1-3d22e186-366c05a9-908206e2" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#component7f000001-41ff9431-b019b896-afac0243" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#component7f000001-41ffc897-ca826476-afac0266" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                
-                
-            </features:featureElements>
-        </features:feature>
-        <features:feature features:id="featureffffffcf-41949539-ee940ee9-d59f01e9" xsi:type="features:Feature">
+        <features:feature features:id="featureffa80108-aaf84b2d-2f447217-944302d7" xsi:type="features:OptionalFeature">
+            <features:featureName features:value="New Feature" xsi:type="features:FeatureName"/>
             <features:description xsi:type="instance:Description">ChatBot</features:description>
-            <features:displayOptions features:id="displayOptionsffffffcf-41949633-80a9b3e2-d59f01ea" xsi:type="features:DisplayOptions">
+            <features:type features:value="optional" xsi:type="features:FeatureType"/>
+            <features:bindingTime features:value="development" xsi:type="features:BindingTime"/>
+            <features:defaultValue features:value="True" xsi:type="features:DefaultValue"/>
+            <features:featureOptions features:id="featureOptionsffa80108-aaf84be8-be021a69-944302d8" xsi:type="features:FeatureOptions">
                 <features:featureColor xsi:type="features:FeatureColor">
-                    <features:value features:data="255,0,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
+                    <features:value features:data="0,255,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
                 </features:featureColor>
-            </features:displayOptions>
-            <features:featureElements features:id="featureElementsffffffcf-41949656-14e9377d-d59f01eb" xsi:type="features:FeatureElements">
-                <features:archElement xlink:href="#componentffffffcf-419817c3-9e4c289b-d59f0209" xlink:type="simple" xsi:type="instance:XMLLink"/>
-               
-                <features:archElement xlink:href="interfaceffffffcf-4199c9f9-63fd292b-d59f0268" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffffcf-419cb906-feed051d-d59f0274" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:featureSymbol features:value="featureffa80108-aaf84b2d-2f447217-944302d7" xsi:type="features:FeatureSymbol"/>
+            </features:featureOptions>
+            <features:featureElements features:id="featureElementsffa80108-aaf84c23-ed668c23-944302d9" xsi:type="features:FeatureElements">
+                <features:archElement xlink:href="#linkffffffcf-41a8c39b-0f1239bc-d59f03b7" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffcf-4198f454-24856dd6-d59f0235" xlink:type="simple" xsi:type="instance:XMLLink"/>
                 <features:archElement xlink:href="#componentffffffcf-41a7e3c3-8e740b13-d59f031c" xlink:type="simple" xsi:type="instance:XMLLink"/>
                 
-                <features:archElement xlink:href="#linkffffffcf-41a8c39b-0f1239bc-d59f03b7" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffcf-41a867eb-4d08c505-d59f03ae" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                
+                <features:archElement xlink:href="#interfaceffffffcf-41a81775-3dac4fe5-d59f0373" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                
             </features:featureElements>
         </features:feature>
-        <features:feature features:id="feature7f000001-42165986-826081ee-afac03a7" xsi:type="features:Feature">
+        <features:feature features:id="featureffa80108-aaffe2f1-0086020c-94430336" xsi:type="features:OptionalFeature">
+            <features:featureName features:value="New Feature" xsi:type="features:FeatureName"/>
+            <features:description xsi:type="instance:Description">Chat History</features:description>
+            <features:type features:value="optional" xsi:type="features:FeatureType"/>
+            <features:bindingTime features:value="development" xsi:type="features:BindingTime"/>
+            <features:defaultValue features:value="True" xsi:type="features:DefaultValue"/>
+            <features:featureOptions features:id="featureOptionsffa80108-aaffe2f4-09f36c07-94430337" xsi:type="features:FeatureOptions">
+                <features:featureColor xsi:type="features:FeatureColor">
+                    <features:value features:data="205,128,255" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
+                </features:featureColor>
+                <features:featureSymbol features:value="featureffa80108-aaffe2f1-0086020c-94430336" xsi:type="features:FeatureSymbol"/>
+            </features:featureOptions>
+            <features:featureElements features:id="featureElementsffa80108-aaffe2f5-5b02ca72-94430338" xsi:type="features:FeatureElements">
+                <features:archElement xlink:href="#componentffcd0241-1f909827-0888495f-dac406be" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffcd0241-1f97b8bb-6611bf01-dac40729" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffcd0241-1f975674-027a7a98-dac4071f" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#componentffcd0241-1f909827-0888495f-dac406be" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffcd0241-1f9babbd-30823b7c-dac407f6" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffcd0241-1f986e8d-0bcfa7c3-dac40772" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffcd0241-1f9941c8-6bdd328a-dac407ad" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffcd0241-1f9830d4-ea648d9f-dac40752" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffcd0241-1f991b86-d9ea878b-dac4079e" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffcd0241-1f98e03d-5d359051-dac40795" xlink:type="simple" xsi:type="instance:XMLLink"/>
+            </features:featureElements>
+        </features:feature>
+        <features:feature features:id="featureffa80108-ab045535-7e2b6d16-94430446" xsi:type="features:OptionalFeature">
+            <features:featureName features:value="New Feature" xsi:type="features:FeatureName"/>
+            <features:description xsi:type="instance:Description">Send File</features:description>
+            <features:type features:value="optional" xsi:type="features:FeatureType"/>
+            <features:bindingTime features:value="development" xsi:type="features:BindingTime"/>
+            <features:defaultValue features:value="True" xsi:type="features:DefaultValue"/>
+            <features:featureOptions features:id="featureOptionsffa80108-ab045538-b9c1b106-94430447" xsi:type="features:FeatureOptions">
+                <features:featureColor xsi:type="features:FeatureColor">
+                    <features:value features:data="255,255,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
+                </features:featureColor>
+                <features:featureSymbol features:value="featureffa80108-ab045535-7e2b6d16-94430446" xsi:type="features:FeatureSymbol"/>
+            </features:featureOptions>
+            <features:featureElements features:id="featureElementsffa80108-ab04553a-c55a55b7-94430448" xsi:type="features:FeatureElements">
+                <features:archElement xlink:href="#interfaceffa8010b-22249f19-c36cd34b-36260111" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-2225e163-9df6f620-36260165" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-2224f783-965540e0-36260132" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-2226133f-7d2d0c70-36260173" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-22257fbb-95509a86-36260154" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-2226bf7b-81e0b7ac-362601de" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-2227bcf0-c55b1e6e-3626022b" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#connectorffa8010b-222657b1-6710dd7f-36260182" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-2227f5ff-6b277268-3626023a" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-22282508-09916484-36260248" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-22272bbe-cda6a84e-36260201" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-2227753c-e8e9f44b-36260222" xlink:type="simple" xsi:type="instance:XMLLink"/>
+            </features:featureElements>
+        </features:feature>
+        <features:feature features:id="featureffa80108-ab0c6fc9-6f5b1b91-94430592" xsi:type="features:OptionalFeature">
+            <features:featureName features:value="New Feature" xsi:type="features:FeatureName"/>
+            <features:description xsi:type="instance:Description">Send Image</features:description>
+            <features:type features:value="optional" xsi:type="features:FeatureType"/>
+            <features:bindingTime features:value="development" xsi:type="features:BindingTime"/>
+            <features:defaultValue features:value="True" xsi:type="features:DefaultValue"/>
+            <features:featureOptions features:id="featureOptionsffa80108-ab0c6fcc-012ddf27-94430593" xsi:type="features:FeatureOptions">
+                <features:featureColor xsi:type="features:FeatureColor">
+                    <features:value features:data="0,187,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
+                </features:featureColor>
+                <features:featureSymbol features:value="featureffa80108-ab0c6fc9-6f5b1b91-94430592" xsi:type="features:FeatureSymbol"/>
+            </features:featureOptions>
+            <features:featureElements features:id="featureElementsffa80108-ab0c6fce-28d2dd4f-94430594" xsi:type="features:FeatureElements">
+                <features:archElement xlink:href="#linkffa8010b-37e57211-3b2a7b0c-362607d2" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-37e5a2a7-6df43290-362607e0" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-37e52ae1-c282617a-362607ca" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-37e4a897-1aa76d92-362607a9" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-37e45c1a-406530c5-36260781" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-37e3ed13-de7af4e2-36260776" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-37e1ce26-e1d56ee4-362606bf" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-37e320ba-eb488484-36260717" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-37e2af3c-8031f1d4-36260701" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffa8010b-37e2ea2b-8b9b6673-36260709" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffa8010b-37e23a5c-d71bb5be-362606e0" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#connectorffa8010b-37e38763-ef79f9bd-3626072f" xlink:type="simple" xsi:type="instance:XMLLink"/>
+            </features:featureElements>
+        </features:feature>
+        <features:feature features:id="featureffa80108-ab15d860-8a06d266-94430757" xsi:type="features:OptionalFeature">
+            <features:featureName features:value="New Feature" xsi:type="features:FeatureName"/>
             <features:description xsi:type="instance:Description">Templet</features:description>
-            <features:displayOptions features:id="displayOptions7f000001-42165988-9fe2b86a-afac03a8" xsi:type="features:DisplayOptions">
+            <features:type features:value="optional" xsi:type="features:FeatureType"/>
+            <features:bindingTime features:value="development" xsi:type="features:BindingTime"/>
+            <features:defaultValue features:value="True" xsi:type="features:DefaultValue"/>
+            <features:featureOptions features:id="featureOptionsffa80108-ab15d863-d1bcecea-94430758" xsi:type="features:FeatureOptions">
+                <features:featureColor xsi:type="features:FeatureColor">
+                    <features:value features:data="0,238,238" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
+                </features:featureColor>
+                <features:featureSymbol features:value="featureffa80108-ab15d860-8a06d266-94430757" xsi:type="features:FeatureSymbol"/>
+            </features:featureOptions>
+            <features:featureElements features:id="featureElementsffa80108-ab15d864-02f6da87-94430759" xsi:type="features:FeatureElements">
+                <features:archElement xlink:href="#interface7f000001-421eeaff-efc5319e-afac03cb" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#link7f000001-421ff697-a0663f96-afac0416" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interface7f000001-421f7067-1aefc9de-afac040e" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#link7f000001-422015a7-9a2bf03e-afac0427" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interface7f000001-421f2ec7-2616e635-afac03ec" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interface7f000001-4220d598-afe6c23f-afac04b1" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#link7f000001-422104a1-de98d94d-afac04b9" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#connector7f000001-42205ff1-08a8948c-afac0452" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#link7f000001-4221d8eb-c3dc2901-afac051b" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#link7f000001-4221aaf4-80936079-afac050b" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interface7f000001-42212bd8-618217f5-afac04e0" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interface7f000001-42216f18-f5a343c5-afac0502" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffff83-61063570-ed972e3c-85510329" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#link7f000001-42230de4-a0e1fdf4-afac057a" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffff83-61072a88-0798835b-85510392" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffff83-61066ce0-e9129a66-85510349" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#component7f000001-42226c93-f97993d8-afac054d" xlink:type="simple" xsi:type="instance:XMLLink"/>
+            </features:featureElements>
+        </features:feature>
+        <features:feature features:id="featureffa80108-ab1bc8b6-65caf8fe-94430873" xsi:type="features:OptionalFeature">
+            <features:featureName features:value="New Feature" xsi:type="features:FeatureName"/>
+            <features:description xsi:type="instance:Description">Game</features:description>
+            <features:type features:value="optional" xsi:type="features:FeatureType"/>
+            <features:bindingTime features:value="development" xsi:type="features:BindingTime"/>
+            <features:defaultValue features:value="True" xsi:type="features:DefaultValue"/>
+            <features:featureOptions features:id="featureOptionsffa80108-ab1bc8b9-600c41f4-94430874" xsi:type="features:FeatureOptions">
+                <features:featureColor xsi:type="features:FeatureColor">
+                    <features:value features:data="255,0,255" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
+                </features:featureColor>
+                <features:featureSymbol features:value="featureffa80108-ab1bc8b6-65caf8fe-94430873" xsi:type="features:FeatureSymbol"/>
+            </features:featureOptions>
+            <features:featureElements features:id="featureElementsffa80108-ab1bc8bc-70dc643e-94430875" xsi:type="features:FeatureElements">
+                <features:archElement xlink:href="#interfaceffffffe1-3d2110a0-9372dfd5-9082061c" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d225057-a8e09ad1-908206a1" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d2206f6-12e19f23-90820698" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d227597-e5b8405b-908206b1" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d21b1cf-b336b055-90820676" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d22ac37-f5a1b8a4-908206da" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d22e186-366c05a9-908206e2" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#connectorffffffe1-3d1f96f6-b7edfa8f-90820529" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d2063b6-eee53bd1-908205aa" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d202616-cdbc6e0e-908205a0" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d20cda7-3b6f7df3-908205f4" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d20909f-baf3c189-908205eb" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d1d517f-a51ed563-90820416" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d1ce4ee-53e6a06b-908203cc" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d1d249f-0a19c468-908203d5" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d1de786-46acd8a9-90820440" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#component7f000001-41ff9431-b019b896-afac0243" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d1e3427-7f61ec0f-90820481" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe1-3d1ea48f-ef4110b0-908204c3" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d1f3397-014e66c8-908204f2" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe1-3d1f50f6-527ab02d-90820501" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#component7f000001-41ffc897-ca826476-afac0266" xlink:type="simple" xsi:type="instance:XMLLink"/>
+            </features:featureElements>
+        </features:feature>
+        <features:feature features:id="featureffa80108-ab26c365-3df1acf5-944309d0" xsi:type="features:OptionalFeature">
+            <features:featureName features:value="New Feature" xsi:type="features:FeatureName"/>
+            <features:description xsi:type="instance:Description">Print</features:description>
+            <features:type features:value="optional" xsi:type="features:FeatureType"/>
+            <features:bindingTime features:value="development" xsi:type="features:BindingTime"/>
+            <features:defaultValue features:value="True" xsi:type="features:DefaultValue"/>
+            <features:featureOptions features:id="featureOptionsffa80108-ab26c368-df114160-944309d1" xsi:type="features:FeatureOptions">
+                <features:featureColor xsi:type="features:FeatureColor">
+                    <features:value features:data="255,128,225" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
+                </features:featureColor>
+                <features:featureSymbol features:value="featureffa80108-ab26c365-3df1acf5-944309d0" xsi:type="features:FeatureSymbol"/>
+            </features:featureOptions>
+            <features:featureElements features:id="featureElementsffa80108-ab26c369-9367cf39-944309d2" xsi:type="features:FeatureElements">
+                <features:archElement xlink:href="#interfaceffcd0241-1f5172f0-717978a9-dac40512" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffcd0241-1f51ac9f-3c9d368f-dac40533" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffcd0241-1f51fcdc-e98cc052-dac4054a" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffcd0241-1f51de4f-130d86db-dac4053c" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#componentffcd0241-1f50dcd7-afe93f74-dac404ce" xlink:type="simple" xsi:type="instance:XMLLink"/>
+            </features:featureElements>
+        </features:feature>
+        <features:feature features:id="featureffa80108-ab27ae01-5e532ff5-94430a07" xsi:type="features:OptionalFeature">
+            <features:featureName features:value="New Feature" xsi:type="features:FeatureName"/>
+            <features:description xsi:type="instance:Description">Tool bar</features:description>
+            <features:type features:value="optional" xsi:type="features:FeatureType"/>
+            <features:bindingTime features:value="development" xsi:type="features:BindingTime"/>
+            <features:defaultValue features:value="True" xsi:type="features:DefaultValue"/>
+            <features:featureOptions features:id="featureOptionsffa80108-ab27ae03-555cbc0e-94430a08" xsi:type="features:FeatureOptions">
                 <features:featureColor xsi:type="features:FeatureColor">
                     <features:value features:data="255,0,0" features:type="org.eclipse.swt.graphics.RGB" xsi:type="features:ColorValue"/>
                 </features:featureColor>
-            </features:displayOptions>
-            <features:featureElements features:id="featureElements7f000001-421659b2-1a5cd6c9-afac03a9" xsi:type="features:FeatureElements">
-                <features:archElement xlink:href="#interface7f000001-421eeaff-efc5319e-afac03cb" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interface7f000001-421f2ec7-2616e635-afac03ec" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interface7f000001-421f7067-1aefc9de-afac040e" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#link7f000001-421ff697-a0663f96-afac0416" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#link7f000001-422015a7-9a2bf03e-afac0427" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#connector7f000001-42205ff1-08a8948c-afac0452" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interface7f000001-4220d598-afe6c23f-afac04b1" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#link7f000001-422104a1-de98d94d-afac04b9" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interface7f000001-42212bd8-618217f5-afac04e0" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interface7f000001-42216f18-f5a343c5-afac0502" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#link7f000001-4221aaf4-80936079-afac050b" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#link7f000001-4221d8eb-c3dc2901-afac051b" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interface7f000001-4222359b-c71477da-afac0545" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#component7f000001-42226c93-f97993d8-afac054d" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                
-                <features:archElement xlink:href="#link7f000001-42230de4-a0e1fdf4-afac057a" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffff83-61063570-ed972e3c-85510329" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#interfaceffffff83-61066ce0-e9129a66-85510349" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                <features:archElement xlink:href="#linkffffff83-61072a88-0798835b-85510392" xlink:type="simple" xsi:type="instance:XMLLink"/>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+                <features:featureSymbol features:value="featureffa80108-ab27ae01-5e532ff5-94430a07" xsi:type="features:FeatureSymbol"/>
+            </features:featureOptions>
+            <features:featureElements features:id="featureElementsffa80108-ab27ae05-667f4b8a-94430a09" xsi:type="features:FeatureElements">
+                <features:archElement xlink:href="#interfaceffffffe5-56c38b43-57575f16-0626031d" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe5-56c5b7ed-a413b701-062603d2" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#connectorffffffe5-56c4116b-aaedfdb7-0626032e" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe5-56c500da-a71b3137-06260393" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe5-56c4a1af-440a1ee7-0626038b" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe5-56c57a62-8bf8dd2a-062603c3" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe5-56c53909-44589e0b-062603ba" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe5-56c2b9a5-78218bf9-062602df" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe5-56c2f338-28504ade-062602e8" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe5-56c1c062-97fe3009-0626029d" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#linkffffffe5-56c3323d-6fc9e3c7-062602f6" xlink:type="simple" xsi:type="instance:XMLLink"/>
+                <features:archElement xlink:href="#interfaceffffffe5-56c2302d-6aa7c548-062602be" xlink:type="simple" xsi:type="instance:XMLLink"/>
             </features:featureElements>
         </features:feature>
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
